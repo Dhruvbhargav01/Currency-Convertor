@@ -1,0 +1,47 @@
+.input-box-container {
+  background-color: white;
+  padding: 12px;
+  border-radius: 8px;
+  font-size: 0.875rem; /* Tailwind's text-sm */
+  display: flex;
+}
+
+.input-half {
+  width: 50%;
+}
+
+.input-label {
+  color: rgba(0, 0, 0, 0.4); /* Tailwind's text-black/40 */
+  margin-bottom: 8px;
+  display: inline-block;
+}
+
+.amount-input {
+  outline: none;
+  width: 100%;
+  background: transparent;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+.currency-section {
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  text-align: right;
+}
+
+.currency-label {
+  color: rgba(0, 0, 0, 0.4);
+  margin-bottom: 8px;
+  width: 100%;
+}
+
+.currency-select {
+  border-radius: 8px;
+  padding: 4px 6px;
+  background-color: #f3f4f6; /* Tailwind's bg-gray-100 */
+  cursor: pointer;
+  outline: none;
+}
